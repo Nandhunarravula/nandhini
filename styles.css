@@ -1,0 +1,77 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0b95cc, #1ea1c948);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://getwallpapers.com/wallpaper/full/5/c/6/180766.jpg");
+  }
+  
+  .card {
+    width: 320px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .background {
+    height: 100px;
+    background: rgb(27, 173, 222);
+    background-image: radial-gradient(circle, rgba(21, 135, 196, 0.5), transparent);
+    /* background-image: url("https://www.hdwallpapers.in/download/light_blue_background_hd_abstract-HD.jpg"); */
+  }
+  
+  .profile {
+    margin-top: -50px;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin: 10px 0 5px;
+  }
+  
+  h2 span {
+    font-weight: normal;
+    color: #777;
+    font-size: 1rem;
+  }
+  
+  p {
+    color: #999;
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .stats h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .stats p {
+    margin: 5px 0 0;
+    color: #888;
+    font-size: 0.8rem;
+  }
+  
